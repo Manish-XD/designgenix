@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile | Foodgenix</title>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="Profile/style.css">
     <script src="https://kit.fontawesome.com/e47f59bf81.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
@@ -40,12 +40,12 @@
     </header>
     <section class="container">
         <div class="buttons">
-            <button>My profile</button>
-            <button>Order History</button>
-            <button>Delivery Address</button>
+            <button id="profile">My profile</button>
+            <button id="order-history">Order History</button>
+            <button id="address">Delivery Address</button>
         </div>
         <div class="sub-container">
-            <div class="card-1">
+            <div class="card_1">
                 <p>Name</p>
                 <form action="">
                     <input placeholder="Enter your name" type="text">
@@ -59,15 +59,71 @@
                     <input placeholder="Enter your address" type="text">
                 </form>
             </div>
+            <div class="card_2">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80" alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Double Paneer Club Burger</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>The Burger Club</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <span>Re-order</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Garden Delight Pizza</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>La Pino’z Pizza</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <span>Re-order</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=510&q=80" alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Subz Dum Biryani</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>Behrouz Biryani</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <span>Re-order</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
 
     </footer>
-    <script type="text/javascript">
-        document.querySelector("button").addEventListener("click", function(){
-            document.querySelector("card-1").style.display = 'none';
+    <script>
+        let card_1 = document.querySelector(".card_1");
+        let card_2 = document.querySelector(".card_2");
+        document.querySelector("#profile").addEventListener("click", function(){
+            card_2.style.display = 'none';
         })
+        document.querySelector("#profile").addEventListener("click", function(){
+            card_1.style.display = 'block';
+        })
+        document.querySelector("#order-history").addEventListener("click", function(){
+            card_1.style.display = 'none';
+        })
+        document.querySelector("#order-history").addEventListener("click", function(){
+            card_2.style.display = 'block';
+        })
+        
     </script>
 </body>
 
