@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Foodgenix</title>
+    <link rel="stylesheet" href="Profile/style.css">
+    <script src="https://kit.fontawesome.com/e47f59bf81.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="Search here..." name="" id="">
+            </form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href="#">
+            <div class="home">
+                <!-- <a href="#"><span>HOME</span></a> -->
+                <span>HOME</span>
+            </div>
+        </a>
+        <div class="cart-profile">
+            <a href="#"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#">
+            <div class="profile">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            </a>
+        </div>
+    </header>
+    <section class="container">
+        <div class="buttons">
+            <button>My profile</button>
+            <button>Order History</button>
+            <button>Delivery Address</button>
+        </div>
+        <div class="sub-container">
+            <div class="card-1">
+                <p>Name</p>
+                <form action="">
+                    <input placeholder="Enter your name" type="text">
+                </form>
+                <p>Phone number</p>
+                <form action="">
+                    <input placeholder="Enter your phone number" type="text">
+                </form>
+                <p>Address</p>
+                <form action="">
+                    <input placeholder="Enter your address" type="text">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script type="text/javascript">
+        document.querySelector("button").addEventListener("click", function(){
+            document.querySelector("card-1").style.display = 'none';
+        })
+    </script>
+</body>
+
+</html>
