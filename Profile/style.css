@@ -127,6 +127,20 @@ header a {
   color: white;
   padding: 1rem 6rem;
   font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+#profile {
+  margin-bottom: 0;
+}
+
+#order-history {
+  border-radius: 12px;
+}
+
+#address {
+  border-radius: 12px;
 }
 
 .container .buttons button:hover {
@@ -163,7 +177,40 @@ header a {
   color: white;
 }
 
-.card_2{
+.form-btn {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.cancel {
+  border: 2px solid white;
+  padding: 0.5px 3rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cancel:hover{
+  background: grey;
+  cursor: pointer;
+}
+
+.submit {
+  margin: 0 5rem;
+  padding: 0.5rem 3rem;
+  background: #77117b;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background: #c6246c;
+}
+
+.card_2 {
   display: none;
 }
 
@@ -182,7 +229,7 @@ header a {
 
 .item-img img {
   border-radius: 16px;
-  height: 13.3rem;
+  height: 12.3rem;
   width: 14rem;
 }
 
@@ -203,8 +250,8 @@ header a {
   font-size: 1.5rem;
 }
 
-.p2{
-  margin-bottom: 1rem;
+.p2 {
+  margin-bottom: 0.8rem;
 }
 
 .place-order {
@@ -212,19 +259,20 @@ header a {
   padding: 0.5rem 1rem;
   width: 16vh;
   border-radius: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
-.place-order:hover{
+.place-order:hover {
   background: #c6246c;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.place-order:visited{
+.place-order:visited {
   background: green;
 }
 
-.place-order span{
+.place-order span {
   font-size: 2rem;
 }
 

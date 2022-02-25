@@ -28,7 +28,7 @@
             </div>
         </a>
         <div class="cart-profile">
-            <a href="cart-1.html"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
             <a href="profile.html">
             <div class="profile">
                 <i class="fa-solid fa-user"></i>
@@ -36,134 +36,53 @@
             </a>
         </div>
     </header>
-
     <div class="shoping-cart">
-        
         <div class="status-bar">
-            <div class="number-container">
-                <div class="number">
-                    <button class="first-step">1</button>
-                </div>
-                <div class="connecting-line"></div>
-                <div class="number">
-                    <button class="second-step unopened">2</button>
-                </div>
-                <div class="connecting-line"></div>
-                <div class="number">
-                    <button class="third-step unopened">3</button>
-                </div>
+            <div class="number">
+                <div class="first" style="color: #8E1A63;">
+                    1
+                </div> 
+                <svg height="40" width="37" xmlns:xlink=#>
+                    <ellipse cx="20" cy="20" rx="16" ry="16"
+                    style="fill:#fff ;stroke:#fff ;stroke-width:2" />
+                </svg> 
+               
             </div>
-            <div class="steps">    
-                <div class="status">
-                    Shoping Cart
+            <div class="connecting-line"></div>
+            <div class="number">
+                <svg height="40" width="34">
+                    <a xlink:href="https://www.w3schools.com/graphics/">
+                        <ellipse cx="17" cy="20" rx="16" ry="16" style="fill:#8E1A63 ;stroke:#fff ;stroke-width:2" />
+                    </a>
+                </svg>
+                <div class="first second">
+                    2
                 </div> 
-                <div class="status">
-                    Delivery Details
+            </div>
+            <div class="connecting-line"></div>
+            <div class="number">
+                <svg height="40" width="34">
+                    <a xlink:href="https://www.w3schools.com/graphics/">
+                        <ellipse cx="17" cy="20" rx="16" ry="16" style="fill:#8E1A63 ;stroke:#fff ;stroke-width:2" />
+                    </a>
+                </svg>
+                <div class="first third">
+                    3
                 </div> 
-                <div class="status">
-                    Payment Method
-                </div>
-            </div>    
+            </div>
+            <p class="status">
+                Shoping Cart
+            </p> 
+            <p class="status">
+                Delivery Details
+            </p> 
+            <p class="status">
+                Payment Method
+            </p> 
         </div>
-        <div class="container" style="width: 80rem; height: 70rem;  margin: 3rem; ">
-            <div class="sub-container" style="border-radius:12px;">
-                <div class="card_2" style="display: block; ">
-                    <div class="item">
-                        <div class="item-img">
-                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80" alt="">
-                        </div>
-                        <div class="item-info">
-                            <h3>Double Paneer Club Burger</h3>
-                            <span>18:00 | 24/01/22</span>
-                            <p>The Burger Club</p>
-                            <div class="prize">
-                                <p class="p2">$60.00</p>
-                                <p class="p2-light">$67.99</p>
-                            </div>
-                            <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-img">
-                            <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="">
-                        </div>
-                        <div class="item-info">
-                            <h3>Garden Delight Pizza</h3>
-                            <span>18:00 | 24/01/22</span>
-                            <p>La Pino'z Pizza</p>
-                            <div class="prize">
-                                <p class="p2">$60.00</p>
-                                <p class="p2-light">$67.99</p>
-                            </div>
-                            <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-img">
-                            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=510&q=80" alt="">
-                        </div>
-                        <div class="item-info">
-                            <h3>Subz Dum Biryani</h3>
-                            <span>18:00 | 24/01/22</span>
-                            <p>Behrouz Biryani</p>
-                            <div class="prize">
-                                <p class="p2">$60.00</p>
-                                <p class="p2-light">$67.99</p>
-                            </div>
-                            <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="2">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item item-total" style="padding: 5rem; display:block">
-                        <div class="item-ordered">
-                            <div class="item-name">
-                                Double Paneer Club Burger<br>
-                                Garden Delight Pizza<br>
-                                Subz Dum Biryani<br>
-                            </div>
-                            <div class="item-bill">
-                                $180<br><br>
-                                $60<br><br>
-                                $120<br><br>
-                            </div>
-                        </div>
-                        <div class="connecting-line" style="width: 63.5rem;"></div>
-                        <div class="item-ordered">
-                            <div class="item-name" style="font-weight: lighter;">
-                                <br>Tax 1<br>
-                                Tax 2<br>
-                                Discount<br>
-                            </div>
-                            <div class="item-bill">
-                                $360<br><br>
-                                $30<br><br>
-                                $20<br><br>
-                                -$10
-                            </div>
-                        </div>
-                        <div class="connecting-line" style="width: 63.5rem;"></div>
-                        <div class="item-ordered">
-                            <div class="item-name" style="font-weight: bolder;">
-                               <br>Total
-                            </div>
-                            <div class="item-bill" style="font-weight: bolder;">
-                                <br><br>$400
-                            </div>
-                        </div>
-                        <button class="next">
-                            Next
-                        </button>
-                    </div>
 
-                    
-                    
-                </div>
-            </div>          
+        <div class="order-details">
+
         </div>
     </div>
 </body>

@@ -61,7 +61,7 @@ color: white;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
-
+    height: 4rem;
 }
 
 .cart-profile {
@@ -73,12 +73,18 @@ align-items: center;
     color: white;
     }
 
-#cart{
-margin: 0 4rem;
-}
-
 .cart-profile i{
 font-size: 3rem;
+}
+
+.cart{
+    margin: 0 4rem;
+    padding: 1rem 2rem; 
+    border-radius: 3rem;
+}
+
+.cart:hover{
+    background: linear-gradient(90.27deg, rgba(255, 255, 255, 0.35) 0.23%, rgba(255, 255, 255, 0.133) 100%);
 }
 
 .profile{
