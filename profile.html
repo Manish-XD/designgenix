@@ -120,9 +120,69 @@
             </div>
             <div class="card_3">
                 <div class="address-block">
-
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street:  214 Street</p>
+                                <p>Zip code  85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City:  Kerela</span>
+                                <span id="state">State/province/area:   Kerela</span>
+                                <p>Phone number:  480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <span id="new_adress">+ Add new Address</span>
+                <div class="address-block">
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street:  214 Street</p>
+                                <p>Zip code  85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City:  Kerela</span>
+                                <span id="state">State/province/area:   Kerela</span>
+                                <p>Phone number:  480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="address-block">
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street:  214 Street</p>
+                                <p>Zip code  85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City:  Kerela</span>
+                                <span id="state">State/province/area:   Kerela</span>
+                                <p>Phone number:  480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span id="new_address">+ Add new Address</span>
             </div>
         </div>
     </section>
@@ -174,21 +234,42 @@
     <script>
         let card_1 = document.querySelector(".card_1");
         let card_2 = document.querySelector(".card_2");
+        let card_3 = document.querySelector(".card_3");
         document.querySelector("#profile").addEventListener("click", function () {
             card_1.style.display = 'block';
             card_2.style.display = 'none';
-            document.querySelector("#order-history").style.marginBottom = '1rem';
+            card_3.style.display = 'none';
             document.querySelector("#profile").style.marginBottom = '0';
-            document.querySelector("#order-history").style.borderRadius = '12px';
+            document.querySelector("#order-history").style.marginBottom = '1rem';
+            document.querySelector("#address").style.marginBottom = '1rem';
             document.querySelector("#profile").style.borderRadius = '12px 12px 0 0';
+            document.querySelector("#order-history").style.borderRadius = '12px';
+            document.querySelector("#address").style.borderRadius = '12px';
+            document.querySelector(".sub-container").style.borderRadius = '0 12px 12px 12px';
         });
         document.querySelector("#order-history").addEventListener("click", function () {
             card_1.style.display = 'none';
             card_2.style.display = 'block';
-            document.querySelector("#order-history").style.marginBottom = '0';
+            card_3.style.display = 'none';
             document.querySelector("#profile").style.marginBottom = '1rem';
-            document.querySelector("#order-history").style.borderRadius = '12px 12px 0 0';
+            document.querySelector("#order-history").style.marginBottom = '0';
+            document.querySelector("#address").style.marginBottom = '1rem';
             document.querySelector("#profile").style.borderRadius = '12px';
+            document.querySelector("#order-history").style.borderRadius = '12px 12px 0 0';
+            document.querySelector("#address").style.borderRadius = '12px';
+            document.querySelector(".sub-container").style.borderRadius = '12px';
+        });
+        document.querySelector("#address").addEventListener("click", function () {
+            card_1.style.display = 'none';
+            card_2.style.display = 'none';
+            card_3.style.display = 'block';
+            document.querySelector("#profile").style.marginBottom = '1rem';
+            document.querySelector("#order-history").style.marginBottom = '1rem';
+            document.querySelector("#address").style.marginBottom = '0';
+            document.querySelector("#profile").style.borderRadius = '12px';
+            document.querySelector("#order-history").style.borderRadius = '12px';
+            document.querySelector("#address").style.borderRadius = '12px 12px 0 0';
+            document.querySelector(".sub-container").style.borderRadius = '12px 0px 12px 12px';
         });
         // window.onscroll = function () { scrollFunction() };
 
