@@ -6,38 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile | Foodgenix</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="Profile/style.css">
+    <link rel="stylesheet" href="Profile/assets/css/header.css">
+    <link rel="stylesheet" href="Profile/assets/css/style.css">
     <script src="https://kit.fontawesome.com/e47f59bf81.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="header">
-        <div class="search">
-            <form action="">
-                <input type="text" placeholder="Search here..." name="" id="">
-            </form>
-            <i class="fa-solid fa-magnifying-glass"></i>
+    <header id="navbar">
+        <div id="box">
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Search here..." name="" id="">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
-        <a href="#">
+        <h3 id="logo">Foodgenix</h3>
+        <a class="anchor" href="#">
             <div class="home">
                 <!-- <a href="#"><span>HOME</span></a> -->
-                <span>HOME</span>
+                <span id="home">HOME</span>
             </div>
         </a>
         <div class="cart-profile">
-            <a href="cart-1.html">
+            <a class="anchor" href="cart-1.html">
                 <div class="cart">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
                 </div>
             </a>
-            <a href="profile.html">
+            <a class="anchor" href="profile.html">
                 <div class="profile">
-                    <i class="fa-solid fa-user"></i>
+                    <i id="profile-icon" class="fa-solid fa-user"></i>
                 </div>
             </a>
         </div>
@@ -129,13 +135,13 @@
                         <h3>Surbhi Singh</h3>
                         <div class="street-zip-city-phone">
                             <div class="street-zip">
-                                <p>Street:  214 Street</p>
-                                <p>Zip code  85225</p>
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
                             </div>
                             <div class="city-phone">
-                                <span>City:  Kerela</span>
-                                <span id="state">State/province/area:   Kerela</span>
-                                <p>Phone number:  480-545-6917</p>
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
                             </div>
                         </div>
                     </div>
@@ -150,13 +156,13 @@
                         <h3>Surbhi Singh</h3>
                         <div class="street-zip-city-phone">
                             <div class="street-zip">
-                                <p>Street:  214 Street</p>
-                                <p>Zip code  85225</p>
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
                             </div>
                             <div class="city-phone">
-                                <span>City:  Kerela</span>
-                                <span id="state">State/province/area:   Kerela</span>
-                                <p>Phone number:  480-545-6917</p>
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
                             </div>
                         </div>
                     </div>
@@ -171,13 +177,13 @@
                         <h3>Surbhi Singh</h3>
                         <div class="street-zip-city-phone">
                             <div class="street-zip">
-                                <p>Street:  214 Street</p>
-                                <p>Zip code  85225</p>
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
                             </div>
                             <div class="city-phone">
-                                <span>City:  Kerela</span>
-                                <span id="state">State/province/area:   Kerela</span>
-                                <p>Phone number:  480-545-6917</p>
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
                             </div>
                         </div>
                     </div>
@@ -231,56 +237,8 @@
             </div>
         </div>
     </footer>
-    <script>
-        let card_1 = document.querySelector(".card_1");
-        let card_2 = document.querySelector(".card_2");
-        let card_3 = document.querySelector(".card_3");
-        document.querySelector("#profile").addEventListener("click", function () {
-            card_1.style.display = 'block';
-            card_2.style.display = 'none';
-            card_3.style.display = 'none';
-            document.querySelector("#profile").style.marginBottom = '0';
-            document.querySelector("#order-history").style.marginBottom = '1rem';
-            document.querySelector("#address").style.marginBottom = '1rem';
-            document.querySelector("#profile").style.borderRadius = '12px 12px 0 0';
-            document.querySelector("#order-history").style.borderRadius = '12px';
-            document.querySelector("#address").style.borderRadius = '12px';
-            document.querySelector(".sub-container").style.borderRadius = '0 12px 12px 12px';
-        });
-        document.querySelector("#order-history").addEventListener("click", function () {
-            card_1.style.display = 'none';
-            card_2.style.display = 'block';
-            card_3.style.display = 'none';
-            document.querySelector("#profile").style.marginBottom = '1rem';
-            document.querySelector("#order-history").style.marginBottom = '0';
-            document.querySelector("#address").style.marginBottom = '1rem';
-            document.querySelector("#profile").style.borderRadius = '12px';
-            document.querySelector("#order-history").style.borderRadius = '12px 12px 0 0';
-            document.querySelector("#address").style.borderRadius = '12px';
-            document.querySelector(".sub-container").style.borderRadius = '12px';
-        });
-        document.querySelector("#address").addEventListener("click", function () {
-            card_1.style.display = 'none';
-            card_2.style.display = 'none';
-            card_3.style.display = 'block';
-            document.querySelector("#profile").style.marginBottom = '1rem';
-            document.querySelector("#order-history").style.marginBottom = '1rem';
-            document.querySelector("#address").style.marginBottom = '0';
-            document.querySelector("#profile").style.borderRadius = '12px';
-            document.querySelector("#order-history").style.borderRadius = '12px';
-            document.querySelector("#address").style.borderRadius = '12px 12px 0 0';
-            document.querySelector(".sub-container").style.borderRadius = '12px 0px 12px 12px';
-        });
-        // window.onscroll = function () { scrollFunction() };
-
-        // function scrollFunction() {
-        //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        //         document.getElementById("header").style.background = "white";
-        //     } else {
-        //         document.getElementById("header").style.background = "none";
-        //     }
-        // }
-    </script>
+    <script src="Profile/js/index.js"></script>
+    <script src="Profile/js/Header.js"></script>
 </body>
 
 </html>

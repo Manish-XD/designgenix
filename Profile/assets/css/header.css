@@ -1,9 +1,14 @@
 header {
   display: flex;
-  padding: 1rem;
+  padding: 0.5rem 3rem;
   align-items: center;
   justify-content: space-between;
   /* zoom:0.95; */
+  /* color: #77117b; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 header a {
@@ -12,6 +17,7 @@ header a {
 }
 
 .search {
+  /* display: none !important; */
   width: 20vw;
   display: flex;
   align-items: center;
@@ -106,3 +112,12 @@ header a {
   border-radius: 3rem;
   padding: 1rem 2rem;
 }
+
+#logo{
+  display: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 2rem;
+  font-size: 2.8rem;
+  letter-spacing: 0.25rem;
+}
+

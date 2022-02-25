@@ -8,33 +8,40 @@
     <script src="https://kit.fontawesome.com/e47f59bf81.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Cart/cart-1.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="Profile/style.css">
+    <link rel="stylesheet" href="Profile/assets/css/header.css">
+    <link rel="stylesheet" href="Profile/assets/css/style.css">
     <title>Cart</title>
 </head>
 
 <body>
-    <header>
-        <div class="search">
-            <form action="">
-                <input type="text" placeholder="Search here..." name="" id="">
-            </form>
-            <i class="fa-solid fa-magnifying-glass"></i>
+    <header id="navbar">
+        <div id="box">
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Search here..." name="" id="">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
-        <a href="#">
+        <h3 id="logo">Foodgenix</h3>
+        <a class="anchor" href="#">
             <div class="home">
                 <!-- <a href="#"><span>HOME</span></a> -->
-                <span>HOME</span>
+                <span id="home">HOME</span>
             </div>
         </a>
         <div class="cart-profile">
-            <a href="#"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
-            <a href="profile.html">
+            <a class="anchor" href="cart-1.html">
+                <div class="cart">
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </a>
+            <a class="anchor" href="profile.html">
                 <div class="profile">
-                    <i class="fa-solid fa-user"></i>
+                    <i id="profile-icon" class="fa-solid fa-user"></i>
                 </div>
             </a>
         </div>
@@ -132,6 +139,7 @@
             </div>
         </div>
     </footer>
+    <script src="Profile/js/Header.js"></script>
 </body>
 
 </html>
