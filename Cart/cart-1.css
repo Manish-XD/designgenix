@@ -15,7 +15,8 @@ body{
     padding-top: 2rem;
 }
 
-/* button{
+button{
+  /*
     background-color: #FFFFFF; 
     border: 1px solid #fff;
     margin-top: 5px;
@@ -29,7 +30,7 @@ body{
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
-} */
+} 
 
 .number-container{
         display: flex;
@@ -73,6 +74,10 @@ body{
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
+}
+
+.first:hover{
+  cursor: pointer;
 }
 .connecting-line{
     /* position: absolute; */
@@ -402,3 +407,48 @@ footer {
     color: white;
   }
 
+<<<<<<< HEAD
+=======
+.card_1{
+  display: none;
+}
+
+.card_3{
+  display: none;
+}
+
+/* .card-3{
+  display: none;
+  background: linear-gradient(
+    90.27deg,
+    rgba(255, 255, 255, 0.4) 0.23%,
+    rgba(255, 255, 255, 0.152) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.card_3 {
+  display: none;
+}
+
+.card_3 .address-block {
+  background: linear-gradient(
+    90.27deg,
+    rgba(255, 255, 255, 0.4) 0.23%,
+    rgba(255, 255, 255, 0.152) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.card_3 .address-block .radio form input {
+  margin-right: 2rem;
+} */
+>>>>>>> 69f37736811df9d43f9ea04610960a77581c0a4d
