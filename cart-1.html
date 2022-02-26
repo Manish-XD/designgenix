@@ -196,7 +196,7 @@
                         </form>
                         <p>Phone number</p>
                         <form action="">
-                            <input placeholder="91xxxxxx90" type="text">
+                            <input placeholder="91xxxxxxxx" type="text">
                         </form>
                         <p>Email ID</p>
                         <form action="">
@@ -204,7 +204,7 @@
                         </form>
                         <p>Delivery Address</p>
                         <form action="">
-                            <textarea rows = "5" cols = "61" name = "address" placeholder="House No., Building Name, City, State(Pin Code)" style="width: 35vw; height: 10rem; resize: none;                        "></textarea>
+                            <textarea rows = "5" cols = "61" name = "address" placeholder="House No., Building Name, City, State(Pin Code)" style="width: 35vw; height: 10rem; resize: none; "></textarea>
                             </textarea>
                         </form>
                         <a href="profile.html"  >
@@ -215,12 +215,125 @@
                         </button>  
                     </div>
                 </div>
+                
+                    <div class="card_3" style="display: block; ">
+                        <div class="payemnt-mode">
+                            <div class="radio">
+                                <form action="">
+                                    <input type="radio" name="pay-card" id="pay-card">
+                                </form>
+                            </div>
+                            <div class="pay">
+                                <h3>Credit Card & Debit Cards</h3>
+                            </div>
+                        </div>
+                        <div class="payment-details">
+                            <!-- <div class="radio">
+                                <form action="">
+                                    <input type="radio" name="myaddress" id="myaddress">
+                                </form>
+                            </div> -->
+                            <div class="pay-head">
+                                <p>Cardholder Name</p>
+                            </div>
+                            <form action="">
+                                <input placeholder="" type="text" id="pay-input">
+                            </form>
+                            <div class="pay-head">
+                                <p>Card Number</p>
+                            </div>
+                            <form action="">
+                                <input placeholder="" type="text" id="pay-input">
+                            </form>
+                            <div class="expire-menu">
+                                <div class="expire">
+                                    <div class="pay-head">
+                                        <p>Expiry Date</p>
+                                    </div>
+                                    <select name="card-expire" id="card-expire" >
+                                        <option value="" disabled selected hidden>mm</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                    <select name="card-expire" id="card-expire" onchange="this.className = 'whiteText'" >
+                                        <option value="" disabled selected hidden>yyyy</option>
+                                        <option value="01">2022</option>
+                                        <option value="02">2023</option>
+                                        <option value="03">2024</option>
+                                        <option value="04">2025</option>
+                                        <option value="05">2026</option>
+                                        <option value="06">2027</option>
+                                        <option value="07">2028</option>
+                                        <option value="08">2029</option>
+                                        <option value="09">2030</option>
+                                    </select>
+                                </div>
+                                <div class="cvv-block">
+                                    <div class="pay-head cvv">
+                                        <p>CVV</p>
+                                    </div>
+                                    <form action="" >
+                                        <input placeholder="" type="text" id="pay-input">
+                                    </form>
+                                </div>    
+                            </div>   
+                            <form action="/action_page.php" class="terms-n-conditions">
+                                <input type="checkbox" id="terms-conditions" name="terms-conditions" value="terms-conditions">
+                                <label for="terms" style=" margin:0rem 1rem">I have read and accepted all terms and conditions</label><br> 
+                            </form>    
+                            <button class="pay-now">
+                               Pay Now
+                            </button>  
+                        </div>
+                        <div class="payemnt-mode">
+                            <div class="radio">
+                                <form action="">
+                                    <input type="radio" name="pay-card" id="pay-card">
+                                </form>
+                            </div>
+                            <div class="pay">
+                                <h3>Online banking & direct debit</h3>
+                            </div>
+                        </div>
+                        <div class="payemnt-mode">
+                            <div class="radio">
+                                <form action="">
+                                    <input type="radio" name="pay-card" id="pay-card">
+                                </form>
+                            </div>
+                            <div class="pay">
+                                <h3>Pay with Paytm</h3>
+                            </div>
+                        </div>
+                        <div class="payemnt-mode">
+                            <div class="radio">
+                                <form action="">
+                                    <input type="radio" name="pay-card" id="pay-card">
+                                </form>
+                            </div>
+                            <div class="pay">
+                                <h3>Cash on delivery</h3>
+                            </div>
+                        </div>
+                        <div class="place-order-cart">
+                            <button class="next">Place Order</button>
+                        </div>  
+                    </div>
 
+                <!-- </div> -->
             </div>
 
-        <div class="order-details">
-
-        </div>
+        
     </div>
     <footer>
         <div class="copyright">

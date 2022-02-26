@@ -419,7 +419,7 @@ header a {
 }
 
 .card_1 input::placeholder {
-  color: white;
+  color: rgb(211, 211, 211);
 }
 
 .form-btn {

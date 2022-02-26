@@ -15,7 +15,7 @@ body{
     padding-top: 2rem;
 }
 
-button{
+/* button{
     background-color: #FFFFFF; 
     border: 1px solid #fff;
     margin-top: 5px;
@@ -29,7 +29,7 @@ button{
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
-}
+} */
 
 .number-container{
         display: flex;
@@ -197,8 +197,8 @@ textarea{
 }
 
 textarea::placeholder {
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(211, 211, 211);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -211,6 +211,94 @@ a:visited{
 .address-change{
     margin-top:1.3rem;
     font-weight: bolder;
+}
+
+.card_3 .payemnt-mode{
+  background: linear-gradient( 90.27deg, rgba(255, 255, 255, 0.4) 0.23%, rgba(255, 255, 255, 0.152) 100% );
+  border-radius: 16px;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.payment-details{
+  background: linear-gradient( 90.27deg, rgba(255, 255, 255, 0.4) 0.23%, rgba(255, 255, 255, 0.152) 100% );
+  border-radius: 16px;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.pay-head{
+  font-size: 1.9rem;
+  margin: 1rem;
+  font-weight: 300;
+}
+
+.pay h3{
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 400;
+}
+
+.place-order-cart{
+  display: flex;
+  justify-content: center;
+}
+
+#pay-input{
+  margin: 0rem 1rem ;
+  background: none;
+  padding: 1rem; 
+  border: 1px solid white;
+  width: 35vw;
+  color: white;
+}
+ 
+
+#card-expire{
+  background-color: rgba(149,61,128,0);
+  color: rgba(255, 255, 255, 0.7);
+  border-color: #fff;
+  margin: 0rem 1rem;
+  height: 3rem;
+}
+
+.whiteText {
+  color:#FFF;
+}
+
+div.cvv{
+  margin: 1rem 10vw;
+  
+}
+
+.expire-menu{
+  display: flex;
+}
+
+.expire-menu #pay-input{
+  margin: 0vw 9.7vw;
+  height: 3rem;
+  width: 10rem
+}
+
+.terms-n-conditions{
+  display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+
+.pay-now{
+  width: 17rem;
+height: 5rem;
+background: #74107C;
+border-radius: 11px;
+font-size: 2rem;
+color: #fff;
+border: none;
 }
 /* FOOTER */
 
@@ -313,3 +401,4 @@ footer {
   footer .up-to-date .form input::placeholder{
     color: white;
   }
+
