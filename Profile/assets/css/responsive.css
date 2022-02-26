@@ -2,6 +2,10 @@ html{
     font-size: 30%;
 }
 
+.search{
+    width: 23vw;
+}
+
 .container {
     margin: 10rem 8rem;
 }
@@ -19,6 +23,7 @@ html{
     /* margin: 4rem 0; */
     margin: 4rem 0;
     width: 100%;
+    font-size: 2rem;
 }
 
 .card_2 .item{
@@ -34,9 +39,15 @@ html{
     margin: 5rem 2rem;
 }
 
+.address-block p, .address-block span {
+    font-size: 1.3rem;
+}
+
 .street-zip-city-phone{
     width: 44rem;
 }
+
+
 
 footer{
     flex-direction: column-reverse;
@@ -44,5 +55,17 @@ footer{
 }
 
 footer .up-to-date .form{
-    width: 40rem;
+    width: 28rem;
+}
+
+footer .up-to-date .form input{
+    font-size: 1.5rem;
+}
+
+footer .copyright .socials .socials-bg {
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+footer .copyright span {
+    margin: 0.5rem 0rem;
 }
