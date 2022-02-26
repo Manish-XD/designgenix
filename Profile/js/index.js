@@ -52,3 +52,12 @@ document.querySelector("#address").addEventListener("click", function () {
   document.querySelector(".sub-container").style.borderRadius =
     "12px 0px 12px 12px";
 });
+document.querySelector("#order1").addEventListener("click", function () {
+    document.querySelector("#order1").innerHTML = "Added to cart ✔️";
+});
+document.querySelector("#order2").addEventListener("click", function () {
+    document.querySelector("#order2").innerHTML = "Added to cart ✔️";
+});
+document.querySelector("#order3").addEventListener("click", function () {
+    document.querySelector("#order3").innerHTML = "Added to cart ✔️";
+});
