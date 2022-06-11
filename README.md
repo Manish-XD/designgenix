@@ -13,7 +13,15 @@ This is a simple food delivery website that our team made in bvp-IEEE's event na
 
 # Screenshots:
 
-![Landing page](/cart-assets/1.PNG)
+![Landing page](/cart-assets/landing.PNG)
+
+![screenshot 1](/cart-assets/1.PNG)
+
+![screenshot 2](/cart-assets/2.PNG)
+
+![screenshot 3](/cart-assets/3.PNG)
+
+![screenshot 4](/cart-assets/4.PNG)
 
 # Wanna visit the site?
 
