@@ -1,6 +1,6 @@
 # Designgenix
 
-This is a simple food delivery website that our team made in bvp-IEEE's event named Design Heist.
+This is a simple food delivery website that our team made in bvp-IEEE's UI/UX competition named Design Heist.
 
 # Technologies we used:
 
